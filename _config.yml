@@ -1,0 +1,17 @@
+title: Streamdata Gallery Help Desk
+url: help-desk.streamdata.gallery
+tag: Help Desk
+markdown: kramdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+github_user: streamdata-gallery
+github_repo: help-desk
+github_branch: master
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+defaults:
+  - scope:
+      type: listings
+    values:
+      layout: listings
